@@ -1,6 +1,6 @@
-SCRIPTS_REPO := "https://github.com/mycard/ygopro-scripts.git"
+SCRIPTS_REPO := "https://github.com/zedja123/ygopro-scripts-custom"
 SCRIPTS_DIR := "../ygopro-scripts"
-DATABASE_REPO := "https://github.com/mycard/ygopro-database/raw/7b1874301fc1aa52bd60585589f771e372ff52cc/locales"
+DATABASE_REPO := "https://github.com/zedja123/ygopro-database-custom/tree/master/locales"
 LOCALES := en zh
 
 .PHONY: all assets script py_install ygoenv_so clean dev
